@@ -1,4 +1,3 @@
-import "./App.css";
 import RoutesNavigator from "./routes/RoutesNavigator";
 
 function App() {
