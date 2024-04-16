@@ -1,12 +1,12 @@
 import Header from "../components/Header";
 
-const About = () => {
+const Error404 = () => {
   return (
     <>
       <Header />
-      <div>About</div>
+      <div>Error404</div>
     </>
   );
 };
 
-export default About;
+export default Error404;
