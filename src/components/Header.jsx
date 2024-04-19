@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 const Header = () => {
   return (
-    <div className="w-screen bg-black text-white flex justify-between content-between font-jetbrains p-3">
+    <div className="w-full bg-black text-white flex justify-between content-between font-jetbrains">
       <AnimateLogo />
       <NavBar />
     </div>
