@@ -3,8 +3,8 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <div className="w-full h-full flex flex-col bg-gray-200 lg:p-20 xl:p-20">
-      <p className="animate-fade-down text-[2.2em] font-black text-center p-4 lg:text-4xl xl:text-5xl">
-        CONSTRUYAMOS JUNTOS ALGO EXTRAORDINARIO
+      <p className="animate-fade-down text-[2em] font-black text-center p-4 lg:text-4xl xl:text-5xl">
+        CONSTRUYAMOS ALGO EXTRAORDINARIO
       </p>
       <div className="flex flex-col xl:flex-row lg:flex-row">
         <div className="w-full flex flex-col items-center xl:p-5 lg:p-5 xl:items-end lg:items-end lg:gap-4">
