@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Diferenciadores from "../components/Diferenciadores";
@@ -7,9 +8,10 @@ import SubHero from "../components/SubHero";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
+
 const Home = () => {
   return (
-    <div className="font-poppins bg-gray-200">
+    <React.Fragment className="font-poppins bg-gray-200">
       <Header />
       <Hero />
       <SubHero />
@@ -18,7 +20,7 @@ const Home = () => {
       <Diferenciadores />
       <Contact />
       <Footer />
-    </div>
+    </React.Fragment>
   );
 };
 

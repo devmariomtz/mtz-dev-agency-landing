@@ -1,13 +1,10 @@
 import { useState } from "react";
-
-// border-solid border-2 border-red-600
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   const toggle = () => {
     if (open) document.getElementById("burger").blur();
     setOpen(!open);
   };
-
   return (
     <>
       <div className="animate-jump p-4 z-40 lg:hidden xl:hidden">
