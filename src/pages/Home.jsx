@@ -1,19 +1,23 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import Nosotros from "../components/Nosotros";
+import Diferenciadores from "../components/Diferenciadores";
 import Projects from "../components/Projects";
 import Services from "../components/Services";
 import SubHero from "../components/SubHero";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div className="font-poppins">
+    <div className="font-poppins bg-gray-200">
       <Header />
       <Hero />
       <SubHero />
       <Services />
       <Projects />
-      <Nosotros />
+      <Diferenciadores />
+      <Contact />
+      <Footer />
     </div>
   );
 };

@@ -53,7 +53,7 @@ const NavBar = () => {
         }
       >
         <nav className="w-full h-full flex justify-center">
-          <ul className="flex flex-col justify-center items-center gap-10 my-[33%]">
+          <ul className="flex flex-conpl justify-center items-center gap-10 my-[33%]">
             <li className="animate-fade-up">
               <a href="/" className="hover:underline underline-offset-8">
                 Inicio 🏠
@@ -77,17 +77,17 @@ const NavBar = () => {
           <ul className="flex justify-around">
             <li className="animate-fade-down">
               <a href="/" className="hover:underline underline-offset-8">
-                Inicio
+                INICIO
               </a>
             </li>
             <li className="animate-fade-down">
               <a href="/about" className="hover:underline underline-offset-8">
-                Quienes somos
+                SOBRE NOSOTROS
               </a>
             </li>
             <li className="animate-fade-down">
               <a href="/contact" className="hover:underline underline-offset-8">
-                Contacto
+                CONTACTO
               </a>
             </li>
           </ul>

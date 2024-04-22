@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <div className="w-full h-full flex flex-col bg-gray-200 lg:p-20 xl:p-20">
+    <div className="w-full h-full flex flex-col  lg:p-20 xl:p-20">
       <p className="animate-fade-down text-[2em] font-black text-center p-4 lg:text-4xl xl:text-5xl">
         CONSTRUYAMOS ALGO EXTRAORDINARIO
       </p>
@@ -34,7 +34,7 @@ const Hero = () => {
         <img
           src="src/assets/hero.svg"
           alt=""
-          className="animate-fade-left w-full p-4 xl:w-[45%] lg:w-[40%]"
+          className="animate-fade-left w-full p-4 hidden xl:block lg:block xl:w-[45%] lg:w-[40%]"
         />
       </div>
     </div>
