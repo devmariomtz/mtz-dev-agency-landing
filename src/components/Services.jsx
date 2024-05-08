@@ -1,13 +1,13 @@
 const Services = () => {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto flex flex-wrap">
+      <div className="container px-5 py-10 mx-auto flex flex-wrap">
         <h2 className="w-full text-center text-3xl font-semibold">
-          📊 Nos encanta apoyar a las empresa así:
+          Nos encanta apoyar a las empresa de esta forma:
         </h2>
         <div className="flex relative pt-10 pb-14 sm:items-center md:w-2/3 mx-auto">
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-blue-500 rounded-full inline-flex items-center justify-center">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -38,7 +38,7 @@ const Services = () => {
         </div>
         <div className="flex relative pb-14 sm:items-center md:w-2/3 mx-auto">
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-blue-500 rounded-full inline-flex items-center justify-center">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -87,7 +87,7 @@ const Services = () => {
         </div>
         <div className="flex relative pb-14 sm:items-center md:w-2/3 mx-auto">
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-blue-500 rounded-full inline-flex items-center justify-center">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -117,7 +117,7 @@ const Services = () => {
         </div>
         <div className="flex relative pb-14 sm:items-center md:w-2/3 mx-auto">
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-blue-500 rounded-full inline-flex items-center justify-center">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -141,14 +141,14 @@ const Services = () => {
               <p className="leading-relaxed">
                 Diga adiós a los enfoques de talla única. Adaptamos nuestros
                 servicios para que se ajusten perfectamente a sus objetivos
-                empresariales exclusivos.
+                empresariales. La solución que necesita, hecha a su medida.
               </p>
             </div>
           </div>
         </div>
         <div className="flex relative pb-14 sm:items-center md:w-2/3 mx-auto">
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-blue-500 rounded-full inline-flex items-center justify-center">
               <svg
                 fill="none"
                 stroke="currentColor"

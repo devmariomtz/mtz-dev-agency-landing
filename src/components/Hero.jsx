@@ -26,7 +26,7 @@ const Hero = () => {
           />
           <a
             href="/"
-            className="animate-jump-in w-[50%] text-center xl:text-2xl lg:text-2xl bg-blue-700 hover:bg-blue-600 cursor-pointer text-white font-bold py-2 px-4 border-b-4 border-blue-900 hover:border-blue-700 rounded"
+            className="animate-jump-in w-[50%] text-center xl:text-2xl lg:text-2xl bg-blue-700 hover:bg-blue-500 cursor-pointer text-white font-bold py-2 px-4 border-b-4 border-blue-900 hover:border-blue-700 rounded"
           >
             🚀 CUENTANOS TU IDEA
           </a>
