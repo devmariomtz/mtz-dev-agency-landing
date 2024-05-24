@@ -1,7 +1,7 @@
 const Diferenciadores = () => {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 mx-auto">
         <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">
           ¿Qué nos haces especiales?
           <br className="hidden sm:block"></br>
