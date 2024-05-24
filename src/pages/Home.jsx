@@ -6,7 +6,7 @@ import Services from "../components/Services";
 import SubHero from "../components/SubHero";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-
+import Form from "../components/Form";
 
 const Home = () => {
   return (
@@ -15,9 +15,9 @@ const Home = () => {
       <Hero />
       <SubHero />
       <Services />
-      <Projects />
+      {/* <Projects /> */}
       <Diferenciadores />
-      <Contact />
+      <Form />
       <Footer />
     </div>
   );
