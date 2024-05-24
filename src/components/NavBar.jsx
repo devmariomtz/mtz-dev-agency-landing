@@ -1,7 +1,7 @@
 import { useState } from "react";
 const NavBar = () => {
   const [open, setOpen] = useState(false);
-  const toggle = () => {
+  const toggle = (e) => {
     if (open) document.getElementById("burger").blur();
     setOpen(!open);
   };
@@ -11,10 +11,10 @@ const NavBar = () => {
         <button
           className="relative group"
           onClick={toggle}
-          // onBlurCapture={toggle}
+          onBlurCapture={toggle}
           id="burger"
         >
-          <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all  ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md">
+          <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all  ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md" >
             <div className="flex flex-col pt-1 justify-between w-[20px] h-[20px] transform transition-all duration-100 origin-center overflow-hidden group-focus:rotate-90">
               <div className="bg-white h-[2px] w-7 transform transition-all duration-300 group-focus:w-0 delay-75"></div>
               <div className="bg-white h-[2px] w-7 rounded transform transition-all duration-300 group-focus:w-0 delay-75"></div>
@@ -45,25 +45,25 @@ const NavBar = () => {
       <div
         className={
           open
-            ? "text-black z-30 animate-fade-right absolute h-full w-full bg-blue-900 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10"
+            ? "z-20 top-0 text-black animate-fade-right h-full w-full fixed bg-blue-900 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10"
             : "hidden"
         }
       >
         <nav className="w-full h-full flex justify-center">
-          <ul className="flex flex-conpl justify-center items-center gap-10 my-[33%]">
+          <ul className="flex flex-col justify-center items-start gap-20 my-[50%] ">
             <li className="animate-fade-up">
-              <a href="/" className="hover:underline underline-offset-8">
-                Inicio 🏠
+              <a href="/" className="hover:underline underline-offset-8 text-xl">
+                🏠 Inicio
               </a>
             </li>
             <li className="animate-fade-up">
-              <a href="/about" className="hover:underline underline-offset-8">
-                Quienes somos 🤝🏻
+              <a href="/about" className="hover:underline underline-offset-8 text-xl">
+                👋🏻 Quienes somos
               </a>
             </li>
             <li className="animate-fade-up">
-              <a href="/contact" className="hover:underline underline-offset-8">
-                Contacto 📞
+              <a href="/contact" className="hover:underline underline-offset-8 text-xl">
+                📧 Contacto
               </a>
             </li>
           </ul>
