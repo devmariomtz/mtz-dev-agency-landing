@@ -7,7 +7,7 @@ const NavBar = () => {
   };
   return (
     <>
-      <div className="animate-jump p-4 z-40 lg:hidden xl:hidden">
+      <div className="animate-jump z-40 lg:hidden xl:hidden p-2 ">
         <button
           className="relative group"
           onClick={toggle}
@@ -56,11 +56,11 @@ const NavBar = () => {
                 🏠 Inicio
               </a>
             </li>
-            <li className="animate-fade-up">
+            {/* <li className="animate-fade-up">
               <a href="/about" className="hover:underline underline-offset-8 text-xl">
                 👋🏻 Quienes somos
               </a>
-            </li>
+            </li> */}
             <li className="animate-fade-up">
               <a href="/contact" className="hover:underline underline-offset-8 text-xl">
                 📧 Contacto
@@ -69,19 +69,19 @@ const NavBar = () => {
           </ul>
         </nav>
       </div>
-      <div className="hidden xl:flex lg:flex w-[40%] items-center p-4">
+      <div className="hidden xl:flex lg:flex w-[40%] items-center border">
         <nav className="w-full">
-          <ul className="flex justify-around">
+          <ul className="flex">
             <li className="animate-fade-down">
               <a href="/" className="hover:underline underline-offset-8">
                 INICIO
               </a>
             </li>
-            <li className="animate-fade-down">
+            {/* <li className="animate-fade-down">
               <a href="/about" className="hover:underline underline-offset-8">
                 SOBRE NOSOTROS
               </a>
-            </li>
+            </li> */}
             <li className="animate-fade-down">
               <a href="/contact" className="hover:underline underline-offset-8">
                 CONTACTO
