@@ -88,7 +88,7 @@ const Form = () => (
                     type="text"
                     id="name"
                     name="name"
-                    placeholder="Dinos cual es tu nombre..."
+                    placeholder="Ingrese su nombre"
                     className="w-full bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     onChange={handleChange}
                     // onBlur={handleBlur}
@@ -111,7 +111,7 @@ const Form = () => (
                   <input
                     type="email"
                     id="email"
-                    placeholder="Dinos tu email..."
+                    placeholder="Ingrese su correo electrónico."
                     name="email"
                     className="w-full bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     onChange={handleChange}
@@ -134,7 +134,7 @@ const Form = () => (
                   </label>
                   <textarea
                     id="message"
-                    placeholder="Escribinos tu mensaje..."
+                    placeholder="Escribinos tu mensaje, pregunta o consulta..."
                     name="message"
                     className="w-full bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                     onChange={handleChange}

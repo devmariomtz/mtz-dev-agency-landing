@@ -13,6 +13,9 @@ const NavBar = () => {
           onClick={toggle}
           onBlurCapture={toggle}
           id="burger"
+          name="menu"
+          aria-label="menu"
+          title="menu"
         >
           <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all  ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md" >
             <div className="flex flex-col pt-1 justify-between w-[20px] h-[20px] transform transition-all duration-100 origin-center overflow-hidden group-focus:rotate-90">
@@ -69,19 +72,24 @@ const NavBar = () => {
           </ul>
         </nav>
       </div>
-      <div className="hidden xl:flex lg:flex w-[40%] items-center border">
+      <div className="hidden xl:flex lg:flex w-[40%] items-center">
         <nav className="w-full">
-          <ul className="flex">
+          <ul className="flex justify-around">
             <li className="animate-fade-down">
               <a href="/" className="hover:underline underline-offset-8">
                 INICIO
               </a>
             </li>
-            {/* <li className="animate-fade-down">
+            <li className="animate-fade-down">
+              <a href="/about" className="hover:underline underline-offset-8">
+                BLOG
+              </a>
+            </li>
+            <li className="animate-fade-down">
               <a href="/about" className="hover:underline underline-offset-8">
                 SOBRE NOSOTROS
               </a>
-            </li> */}
+            </li>
             <li className="animate-fade-down">
               <a href="/contact" className="hover:underline underline-offset-8">
                 CONTACTO
