@@ -1,4 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
+import hero from "../assets/hero.svg";
 
 const Hero = () => {
   return (
@@ -36,7 +37,7 @@ const Hero = () => {
           </a>
         </div>
         <img
-          src="src/assets/hero.svg"
+          src={hero}
           alt=""
           className="animate-fade-left w-full p-4 hidden xl:block lg:block xl:w-[45%] lg:w-[40%]"
         />

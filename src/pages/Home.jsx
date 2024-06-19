@@ -8,6 +8,7 @@ import SubHero from "../components/SubHero";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Form from "../components/Form";
+import mtzAvatar from "../assets/mtzAvatar.jpg";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
         // chatboxClassName="animate-fade-up"
         phoneNumber="+503 76476402"
         accountName="MTZ DEV AGENCY 🚀"
-        avatar="src/assets/mtzAvatar.jpg"
+        avatar={mtzAvatar}
         statusMessage="Listos para innovar 📈"
         chatMessage="Hola! 👋🏻
 ¿En que podemos ayudarte?"
