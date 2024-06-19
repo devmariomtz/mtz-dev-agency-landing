@@ -19,8 +19,7 @@ const SubHero = () => {
             <span className="font-bold">&lt;MTZ/&gt; DEV AGENCY</span> es una
             agencia de desarrollo de software, especializada en la prestación de
             servicios personalizados. Desde la creación de sitios web hasta el
-            desarrollo de soluciones tecnologicas a medida donde destacamos en
-            la atención a las necesidades únicas de cada cliente.
+            desarrollo de soluciones tecnologicas a medida.
             <span className="font-semibold">
               &nbsp; Nuestro punto fuerte es la creación de soluciones de
               software a medida que impulsan la innovación y el crecimiento de
