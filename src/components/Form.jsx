@@ -2,6 +2,7 @@ import { Formik } from "formik";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 
+const app_form_url = import.meta.env.VITE_APP_FORM_URL;
 const form_url = import.meta.env.VITE_FORM_URL;
 const name_entry = import.meta.env.VITE_NAME_ENTRY;
 const email_entry = import.meta.env.VITE_EMAIL_ENTRY;
@@ -51,8 +52,11 @@ const Form = () => (
               params.append(pair[0], pair[1]);
             }
 
+            params.append("FORM_URL", form_url);
+
             try {
-              const response = await axios.post(form_url, params);
+              const response = await axios.post(app_form_url, params);
+              console.log("RES:",response);
               toast.success("Mensaje enviado! 🤩📈", { duration: 2500 });
             }
             catch (error) {

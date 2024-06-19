@@ -8,7 +8,6 @@ const Hero = () => {
       </span>
       <div className="flex flex-col xl:flex-row lg:flex-row">
         <div className="w-full flex flex-col items-center xl:p-5 lg:p-5 xl:items-end lg:items-end lg:gap-4">
-
           <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed once, initially
@@ -26,10 +25,13 @@ const Hero = () => {
             repeat={Infinity}
           />
           <a
-            href="/"
+            href="#contact"
             className="flex items-center justify-center animate-jump-in w-[50%] text-center xl:text-2xl lg:text-2xl bg-blue-700 hover:bg-blue-500 cursor-pointer text-white font-bold py-2 px-4 border-b-4 border-blue-900 hover:border-blue-700 rounded"
           >
-            <span className="text-2xl md:text-3xl lg:text-3xl block animate-wiggle-more animate-infinite">🚀</span> <span className="pl-2">CUENTANOS TU IDEA</span>
+            <span className="text-2xl md:text-3xl lg:text-3xl block animate-wiggle-more animate-infinite">
+              🚀
+            </span>{" "}
+            <span className="pl-2">CUENTANOS TU IDEA</span>
           </a>
         </div>
         <img
